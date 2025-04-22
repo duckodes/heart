@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>愛心</title>
+    <style>
+        body {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: rgb(255, 130, 130);
+            font-family: Arial, sans-serif;
+        }
+
+        .heart {
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-template-rows: repeat(9, 1fr);
+            gap: 0.5px;
+        }
+
+        .letter {
+            letter-spacing: 7px;
+            font-size: 13px;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.7s ease-in-out, color 2s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heart">
+        <!-- 第一行 -->
+        <span class="letter" style="grid-column: 3; grid-row: 1;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 1;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 1;">愛</span>
+
+        <span class="letter" style="grid-column: 9; grid-row: 1;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 1;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 1;">愛</span>
+
+        <!-- 第二行 -->
+        <span class="letter" style="grid-column: 2; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 3; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 2;">愛</span>
+
+        <span class="letter" style="grid-column: 8; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 2;">愛</span>
+        <span class="letter" style="grid-column: 12; grid-row: 2;">愛</span>
+
+        <!-- 第三行 -->
+        <span class="letter" style="grid-column: 1; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 2; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 3; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 3;">愛</span>
+
+        <span class="letter" style="grid-column: 8; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 12; grid-row: 3;">愛</span>
+        <span class="letter" style="grid-column: 13; grid-row: 3;">愛</span>
+
+        <!-- 第四行 -->
+        <span class="letter" style="grid-column: 1; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 2; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 3; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 12; grid-row: 4;">愛</span>
+        <span class="letter" style="grid-column: 13; grid-row: 4;">愛</span>
+
+        <!-- 第五行 -->
+        <span class="letter" style="grid-column: 1; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 2; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 3; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 12; grid-row: 5;">愛</span>
+        <span class="letter" style="grid-column: 13; grid-row: 5;">愛</span>
+
+        <!-- 第六行 -->
+        <span class="letter" style="grid-column: 1; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 2; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 3; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 12; grid-row: 6;">愛</span>
+        <span class="letter" style="grid-column: 13; grid-row: 6;">愛</span>
+
+        <!-- 第七行 -->
+        <span class="letter" style="grid-column: 2; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 3; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 7;">愛</span>
+        <span class="letter" style="grid-column: 12; grid-row: 7;">愛</span>
+
+        <!-- 第八行 -->
+        <span class="letter" style="grid-column: 2; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 3; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 8;">愛</span>
+        <span class="letter" style="grid-column: 12; grid-row: 8;">愛</span>
+
+        <!-- 第九行 -->
+        <span class="letter" style="grid-column: 3; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 4; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 9;">愛</span>
+        <span class="letter" style="grid-column: 11; grid-row: 9;">愛</span>
+
+        <!-- 第十行 -->
+        <span class="letter" style="grid-column: 4; grid-row: 10;">愛</span>
+        <span class="letter" style="grid-column: 5; grid-row: 10;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 10;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 10;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 10;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 10;">愛</span>
+        <span class="letter" style="grid-column: 10; grid-row: 10;">愛</span>
+
+        <!-- 第十一行 -->
+        <span class="letter" style="grid-column: 5; grid-row: 11;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 11;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 11;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 11;">愛</span>
+        <span class="letter" style="grid-column: 9; grid-row: 11;">愛</span>
+
+        <!-- 第十二行 -->
+        <span class="letter" style="grid-column: 6; grid-row: 12;">愛</span>
+        <span class="letter" style="grid-column: 7; grid-row: 12;">愛</span>
+        <span class="letter" style="grid-column: 8; grid-row: 12;">愛</span>
+
+        <!-- 第十三行 -->
+        <span class="letter" style="grid-column: 7; grid-row: 13;">愛</span>
+
+
+        <span class="letter" style="grid-column: 4; grid-row: 14;">　</span>
+
+        <span class="letter" style="grid-column: 4; grid-row: 15;">我</span>
+        <span class="letter" style="grid-column: 5; grid-row: 15;">愛</span>
+        <span class="letter" style="grid-column: 6; grid-row: 15;">你</span>
+        <span class="letter" style="grid-column: 7; grid-row: 15;">，</span>
+        <span class="letter" style="grid-column: 8; grid-row: 15;">董</span>
+        <span class="letter" style="grid-column: 9; grid-row: 15;">謙</span>
+        <span class="letter" style="grid-column: 10; grid-row: 15;">霈</span>
+    </div>
+
+    <script>
+        const letters = document.querySelectorAll('.letter');
+        let delay = 50;  // 控制動畫速度（毫秒）
+
+        letters.forEach((letter, index) => {
+            setTimeout(() => {
+                letter.style.opacity = '1';
+            }, index * delay);
+        });
+
+        // 等動畫結束後，讓所有 letters 一起變換顏色
+        setTimeout(() => {
+            setInterval(() => {
+                const randomColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+                letters.forEach(letter => {
+                    letter.style.color = randomColor;
+                });
+            }, 500); // 每 500 毫秒變換一次顏色
+        }, letters.length * delay);
+
+        // 等動畫結束後，開始隨機變換顏色 (每個字)
+        // setTimeout(() => {
+        //     setInterval(() => {
+        //         letters.forEach(letter => {
+        //             letter.style.color = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+        //         });
+        //     }, 500); // 每 500 毫秒變換一次顏色
+        // }, letters.length * delay);
+    </script>
+</body>
+
+</html>
